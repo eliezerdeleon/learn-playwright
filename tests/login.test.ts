@@ -13,8 +13,8 @@ await page.hover("//a[@data-toggle='dropdown']//span[contains(.,'My account')]")
 await page.click("'Login'")
 await page.waitForTimeout(5000);
 
-await page.fill("input[name='email']", "koushik350@gmail.com")
-await page.fill("input[name='password']", "Pass123$")
+await page.fill("input[name='email']", "eliezer.deleon1@hotmail.com")
+await page.fill("input[name='password']", "Ed123456$")
 
 await page.click("input[value='Login']");
 
