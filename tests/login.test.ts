@@ -14,7 +14,7 @@ await page.click("'Login'")
 await page.waitForTimeout(5000);
 
 await page.fill("input[name='email']", "koushik350@gmail.com")
-await page.fill("input[name='password']", "Pass123")
+await page.fill("input[name='password']", "Pass123$")
 
 await page.click("input[value='Login']");
 
