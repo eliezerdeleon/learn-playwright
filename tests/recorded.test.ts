@@ -14,5 +14,6 @@ test('test', async ({ page }) => {
   await page.getByPlaceholder('First Name').click();
   await page.getByPlaceholder('First Name').fill('EliezerNatanael');
   await page.getByRole('button', { name: 'Continue' }).click();
+  await page.hover("//a[@data-toggle='dropdown']//span[contains(.,'My account')]")
   await page.getByRole('link', { name: 'Logout', exact: true }).click();
 });
