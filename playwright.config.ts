@@ -4,7 +4,9 @@ const config: PlaywrightTestConfig = {
     //testMatch:["tests/login.test.ts"]
     testMatch: ["tests/recorded.test.ts"],
     use: {
-        headless: false
+        headless: false,
+        screenshot: "on",
+        video: "on"
     },
     
 reporter: [["dot"],["json",{

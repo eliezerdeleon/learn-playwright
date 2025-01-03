@@ -81,13 +81,24 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8982,
+                  "duration": 10102,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-01-02T21:21:52.497Z",
-                  "attachments": []
+                  "startTime": "2025-01-03T00:43:46.082Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\QA Automation\\learn-playwright\\test-results\\tests-recorded-test\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\QA Automation\\learn-playwright\\test-results\\tests-recorded-test\\video.webm"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
@@ -103,8 +114,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-01-02T21:21:50.162Z",
-    "duration": 12751.242,
+    "startTime": "2025-01-03T00:43:44.070Z",
+    "duration": 15795.422999999999,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
